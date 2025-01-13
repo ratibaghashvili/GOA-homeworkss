@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.style{
+    background-color: black;
+    color: green;
+    text-shadow: 14px 14px 14px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.style h1 h2{
+    color: lightgreen;
+}
+

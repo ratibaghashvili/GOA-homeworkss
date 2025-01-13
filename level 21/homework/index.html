@@ -1,0 +1,69 @@
+<!-- 1) -->
+<!--css დეკლარაცია არის სტილის მიცემა html ფაილისთვის-->
+<!--მაგ:
+color: blue;
+font-size: 14px;-->
+
+<!--კუთნილება არის რაღაცაზე მოქმედება მაგალითად,
+ფერით ზომით და ასშ..-->
+
+<!--მნიშვნელობა არის რა უნდა იყოს და როგორი უნდა იყოს,
+კონკრეტული ელემენტი ანუ მისი value-->
+
+<!-- 2) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEDING</title>
+    <style>
+        div{
+            border-style: dashed;
+            border:5px solid black;
+            background-color: bisque;
+        }
+        h2{
+            text-align: center;
+        }
+        h1{
+            font-weight: bold;
+            text-align: center;
+            color: red;
+            background-color: yellow;
+        }
+        .small {
+            font-size: 12px;
+        }
+
+        .medium {
+            font-size: 16px;
+        }
+
+        .large {
+            font-size: 20px;
+        }
+
+        .lighter {
+            font-weight: lighter;
+        }
+        img{
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>
+            this is important heading
+        </h2>
+    </div>
+    <h1>this is heading</h1>
+    <p class="small">This is a small paragraph</p>
+    <p class="medium lighter">This is a medium lighter paragraph.</p>
+    <p class="large">This is a large paragraph</p>
+    <hr>
+    <img src="image.png">
+</body>
+</html>

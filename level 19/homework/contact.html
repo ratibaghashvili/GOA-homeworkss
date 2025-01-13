@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="shortcut icon" href="img/goa.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="e.con.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url("./img/goa.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #3207ce, #0869fc, #0969a8);
+        }
+
+        .form-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            width: 400px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        input, textarea, button {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input, textarea {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            color: #000000;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: #ffffff;
+        }
+
+        textarea {
+            resize: none;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: #050781;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #005fcc;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="form-container">
+        <h2>Contact Us Form</h2>
+        <form action="#" method="post">
+            <div class="input-row">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+            </div>
+            <div class="input-row">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="mobile" placeholder="Mobile" required>
+            </div>
+            <textarea name="message" placeholder="Type Your Message Here..." rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+

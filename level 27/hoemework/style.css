@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+.kaikaci{
+    border-style: hidden;
+    background-color: black;
+    font-size: 40px;
+    color:red;
+}
+
+.kaikaci1{
+    border-style: hidden;
+    background-color: black;
+    font-size: 40px;
+    color: green;
+}

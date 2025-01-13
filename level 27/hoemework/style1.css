@@ -1,0 +1,12 @@
+p , h1 , button{
+    color:blue;
+    border-style:hidden;
+    background-color:black;
+}
+button:hover{
+    background-color:green ;
+}
+button{
+    padding: 15px;
+    cursor: pointer;
+}

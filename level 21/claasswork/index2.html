@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        body {
+            font-family:sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+        .card {
+            width: 300px;
+            background-color: whitesmoke;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .cardtitle {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-txt{
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        .divider {
+            background-color: whitesmoke;
+            height: 2px;
+            margin: 10px 0;
+        }
+        .cardtext {
+            font-size: 14px;
+            font-weight: 300;
+            color: grey;
+            line-height: 1.5;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="cardtitle">Card layout</div>
+        <div class="card-txt">Lorem.</div>
+        <div class="divider"></div>
+        <div class="cardtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+</body>
+</html>
