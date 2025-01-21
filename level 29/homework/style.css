@@ -1,0 +1,58 @@
+#pirveli{
+    color: black;
+}
+
+#meore{
+    color: blue;
+}
+
+#mesame{
+    color: aliceblue;
+}
+
+#meotxe{
+    color: beige;
+}
+
+#mexute{
+    color: brown;
+}
+
+.kaia{
+    background-color: black ;
+}
+
+
+#mButton {
+    color: blue;
+}
+
+
+.bClass {
+    color: blue;
+}
+
+#div1 {
+    background-color: rgb(255, 0, 0); 
+    color: rgb(0, 0, 0);  
+}
+
+#div2 {
+    background-color: rgb(0, 255, 0);  
+    color: rgb(255, 255, 255); 
+}
+
+#div3 {
+    background-color: rgb(0, 0, 255);  
+    color: rgb(255, 255, 255);  
+}
+
+#div4 {
+    background-color: rgb(255, 255, 0);  
+    color: rgb(0, 0, 0);  
+}
+
+#div5 {
+    background-color: rgb(255, 165, 0);  
+    color: rgb(255, 255, 255);  
+}
