@@ -1,0 +1,13 @@
+table, th ,td{
+    border: 1px solid green;
+    border-collapse:collapse ;
+}
+
+#table2 tr:nth-child(1) {
+    background-color: rgb(2, 59, 2);
+    color: white;
+}
+
+#table2 tr:nth-child(3) , #table2 tr:nth-child(5){
+    background-color: gray;
+}

@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+th {
+    background: #007b5e;
+    color: white;
+}
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+tr:nth-child(2) {
+    background: #e6f7eb;
+    font-weight: bold;
+}
+.idk {
+    color: #007b5e;
+}
