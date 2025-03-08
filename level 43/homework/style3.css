@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    border: 2px solid black;
+}
+.section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.header { 
+    background: blue; 
+}
+.hero { 
+    background: red; 
+}
+.content {
+     background: green; 
+    }
+.sidebar {
+     background: purple; 
+    }
+.footer {
+     background: gray; 
+    } 
